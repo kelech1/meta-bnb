@@ -1,4 +1,4 @@
-import footlogo from "../assets/images/footlogo.png"
+import footlogo from "../assets/icons/footlogo.png"
 import copyright from "../assets/icons/copyright.png";
 import facebook from "../assets/icons/facebook.png";
 import instagram from "../assets/icons/instagram.png";

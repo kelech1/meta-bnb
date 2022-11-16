@@ -1,20 +1,17 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Board from '../components/board'
-import Strip from '../components/strip'
-import Desert from '../components/desert'
-import Lastframe from '../components/lastframe'
+import Intro from '../comp/Intro'
+import More from '../comp/More'
+import NextAdventure from '../comp/NextAdventure'
+import Partners from '../comp/Partners'
 
 export default function Home() {
+  
   return (
-    <>
-      <Board />
-    
-      <Strip />
-
-      <Desert />
-
-      <Lastframe />
-    </>
+    <div>
+       <Intro/>
+       <Partners/>
+       <NextAdventure/>
+       <More/>
+    </div>
   )
 }
